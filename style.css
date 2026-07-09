@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 18px 7% ;
+}
+/* nav-section-start */
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-images img{
+    width: 130px;
+    height: 40px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+.nav-items li a{
+    text-decoration: none;
+    color: black;
+}
+.common-btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* nav-section-end */
