@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
 .container{
     padding: 18px 7% ;
@@ -59,6 +60,7 @@ header{
 }
 .banner-text h1{
     font-size: 80px;
+    font-weight: bold;
 
 }
 .banner-text p{
@@ -70,3 +72,105 @@ header{
     
 }
 /* banner-section-end */
+/* speakers-section-start */
+.speakers-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    padding-top: 30px;
+    margin-bottom: 40px
+}
+.card img{
+    width: 100%;
+}
+.card{
+    border: 1px solid #E5E7EB;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card-text{
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+.card-text .text-1{
+    font-size: small;
+    color: #1D4ED8;
+}
+
+.speakers-text{
+    text-align: center;
+    margin-top: 40px ;
+}
+.speakers-text a{
+    text-decoration: none;
+    color: black;
+}
+/* speakers-section-end */
+
+/* subscription-section-start */
+.pricing-card-parent{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.pricing-card{
+    border: 1px solid #E5E7EB;
+    padding: 30px;
+    border-radius: 10px;
+}
+.card-btn{
+    text-align: center;
+}
+.subscription-section{
+    text-align: center;
+    padding: 30px;
+}
+.subscription-text-p{
+    color: #888888;
+    font-size: small;
+}
+.text-p1{
+    color: #888888;
+    font-size: small;
+}
+.text-p2{
+    color: #888888;
+    font-size: smaller;
+    padding-bottom: 10px;
+}
+.pricing-card ul{
+    display: grid;
+    gap: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.card-btn button{
+    margin-top: 20px;
+    width: 15px 50px;
+}
+/* pro-card */
+.pricing-card-pro{
+    border: 1px solid #E5E7EB;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #0D1B2A;
+    color: white;
+}
+.pricing-card-pro ul{
+    display: grid;
+    gap: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.outline-btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    cursor: pointer;
+}
+
+/* subscription-section-end */
+
